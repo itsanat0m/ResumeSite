@@ -4,7 +4,7 @@ import OutSiteLink from "./OutSiteLink"
 function NavBar() {
 
   return (
-    <div className="navBar">
+    <div className="navBar" style={{backgroundColor: "blue"}}>
       <OutSiteLink name='GitHub' img='idfk' url = 'https://www.github.com/itsanat0m' desc = 'My GitHub containing ongoing projects and a majority of schoolwork!' />
       <OutSiteLink name='LinkedIn' img='idfk' url = 'https://www.linkedin.com/in/adam-c-mikkelsen' desc = 'My LinkedIn profile with skills and current job positions!' />
     </div>
