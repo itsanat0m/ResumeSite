@@ -1,0 +1,7 @@
+.navBar{
+  background-color: #7A9E7E;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  max-height: 200px;
+}

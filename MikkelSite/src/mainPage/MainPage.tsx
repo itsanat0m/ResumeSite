@@ -1,13 +1,14 @@
 import NavBar from "../navBar/NavBar";
 import { Parallax } from "react-scroll-parallax";
+import Title from "./Title";
 import "./mainPage.css";
 
 function MainPage() {
 
   return(
     <>
-        <img src="idk" />
-      <Parallax translateY={['100%', '-100%']}>
+      <Title />
+      <Parallax translateY={['70%', '-100%']}>
       <div className="mainBlurb">
         <div className="aboutMe">
           <img src="idk" />
@@ -30,6 +31,7 @@ function MainPage() {
             <p>Im so done with school oh my god get me the fuck OUTTA HERE</p>
           </div>
         </div>
+        <div style={{minHeight: 200, maxHeight: 200}} />
         <NavBar />
       </div>
       </Parallax>
